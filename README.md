@@ -43,7 +43,7 @@ Install the required libraries by running: "pip install -r requirements.txt"
 
 * Step 2: Configure Email Credentials
   In the script, set your email address and app-specific password in the placeholders:
-  email_user = "youremail@example.com"
+   email_user = "youremail@example.com"
   email_pass = "yourpassword"
 
 * Step 3: Execute the Script
