@@ -76,4 +76,8 @@ Install the required libraries by running: "pip install -r requirements.txt"
   type
 
 
+**Contact**
+E-mail- omrajek999@gmail.com
+
+
 **This README.md provides installation instructions, usage steps, and an overview of the project features.**
