@@ -2,8 +2,10 @@
 
 This project is a Python-based solution for scanning email attachments to detect potential malware and other security threats. Using IMAP to access emails, the script downloads attachments, scans for malware indicators, and generates a comprehensive report in CSV format.
 
+
 **Project Overview**
 Email attachments are a major source of cyber threats, including phishing, malware, and ransomware. This project automates the process of analyzing email attachments without relying on third-party APIs or antivirus software. It checks attachments for password protection, scans for malicious content, and detects obfuscated data, providing a self-contained and privacy-conscious approach.
+
 
 **Features**
 * IMAP-based Email Connection: Fetches emails and attachments directly from the inbox.
@@ -13,14 +15,17 @@ Email attachments are a major source of cyber threats, including phishing, malwa
 * Suspicious Content Detection: Flags risky file types (e.g., .exe, .js) and obfuscated PDF content.
 * CSV Report: Generates a detailed report with information on each email and attachment.
 
+
 **Setup and Installation**
 **Prerequisites:**
 Make sure you have the following installed:
 * Python 3.7+
 * pip for managing Python packages
 
+
 **Required Libraries:**
 Install the required libraries by running: "pip install -r requirements.txt"
+
 
 **The 'requirements.txt' file should include:**
 * imaplib
@@ -31,10 +36,12 @@ Install the required libraries by running: "pip install -r requirements.txt"
 * io
 * time
 
+
 **Email Account Setup:**
 1. Set up an email account that supports IMAP (e.g., Gmail).
 2. If your email provider requires app-specific passwords for IMAP, set one up and use it in the
    script.
+
 
 **Running the Project**
 * Step 1: Clone the Repository
@@ -59,6 +66,7 @@ Install the required libraries by running: "pip install -r requirements.txt"
   A CSV file (attachment_report.csv) will be generated, summarizing each attachment's properties
   and whether it was flagged as malicious or password-protected.
 
+
 **Example Output**
 * The CSV report includes:
 * Sender Information: Email address of the sender
@@ -66,5 +74,6 @@ Install the required libraries by running: "pip install -r requirements.txt"
 * Password Protection: Whether a PDF file is password-protected
 * Malware Detection: Indicates if the attachment is potentially malicious based on hash and file
   type
+
 
 **This README.md provides installation instructions, usage steps, and an overview of the project features.**
