@@ -58,9 +58,9 @@ Install the required libraries by running: "pip install -r requirements.txt"
   and whether it was flagged as malicious or password-protected.
 
 **Project Structure**
-├── email_attachment_analysis.py     # Main script for email processing and attachment analysis
-├── requirements.txt                 # List of required libraries
-└── attachment_report.csv            # Output report with analysis results (generated after script runs)
+/n├── email_attachment_analysis.py     # Main script for email processing and attachment analysis
+/n├── requirements.txt                 # List of required libraries
+/n└── attachment_report.csv            # Output report with analysis results (generated after script runs)
 
 **Example Output**
 * The CSV report includes:
