@@ -43,7 +43,9 @@ Install the required libraries by running: "pip install -r requirements.txt"
 
 * Step 2: Configure Email Credentials
   In the script, set your email address and app-specific password in the placeholders:
-   email_user = "youremail@example.com"
+
+  email_user = "youremail@example.com"
+
   email_pass = "yourpassword"
 
 * Step 3: Execute the Script
@@ -56,11 +58,6 @@ Install the required libraries by running: "pip install -r requirements.txt"
 * Step 4: Review the Report
   A CSV file (attachment_report.csv) will be generated, summarizing each attachment's properties
   and whether it was flagged as malicious or password-protected.
-
-**Project Structure**
-/n├── email_attachment_analysis.py     # Main script for email processing and attachment analysis
-/n├── requirements.txt                 # List of required libraries
-/n└── attachment_report.csv            # Output report with analysis results (generated after script runs)
 
 **Example Output**
 * The CSV report includes:
